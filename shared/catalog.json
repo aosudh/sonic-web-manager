@@ -1,0 +1,336 @@
+{
+  "version": "1.0",
+  "product": "SONiC Web Manager",
+  "reference": "Onyx 3.10 Web operation model",
+  "groups": [
+    {
+      "id": "setup",
+      "label": "设置",
+      "english": "Setup",
+      "pages": [
+        {
+          "id": "setup.interfaces",
+          "label": "管理接口"
+        },
+        {
+          "id": "setup.routing",
+          "label": "管理路由"
+        },
+        {
+          "id": "setup.hostname",
+          "label": "主机名"
+        },
+        {
+          "id": "setup.dns",
+          "label": "DNS"
+        },
+        {
+          "id": "setup.login-messages",
+          "label": "登录提示"
+        },
+        {
+          "id": "setup.arp",
+          "label": "地址解析"
+        },
+        {
+          "id": "setup.ipsec",
+          "label": "IPsec"
+        },
+        {
+          "id": "setup.neighbors",
+          "label": "IPv6 邻居"
+        },
+        {
+          "id": "setup.virtualization",
+          "label": "虚拟化"
+        },
+        {
+          "id": "setup.switch-profile",
+          "label": "交换模式"
+        },
+        {
+          "id": "setup.web",
+          "label": "Web 服务"
+        },
+        {
+          "id": "setup.snmp",
+          "label": "SNMP"
+        },
+        {
+          "id": "setup.email-alerts",
+          "label": "邮件告警"
+        },
+        {
+          "id": "setup.xml-gateway",
+          "label": "XML 网关"
+        },
+        {
+          "id": "setup.json-api",
+          "label": "JSON API"
+        },
+        {
+          "id": "setup.logging",
+          "label": "日志设置"
+        },
+        {
+          "id": "setup.configurations",
+          "label": "配置管理"
+        },
+        {
+          "id": "setup.docker",
+          "label": "容器"
+        },
+        {
+          "id": "setup.datetime",
+          "label": "日期与时间"
+        },
+        {
+          "id": "setup.ntp",
+          "label": "NTP"
+        },
+        {
+          "id": "setup.licensing",
+          "label": "许可"
+        }
+      ]
+    },
+    {
+      "id": "system",
+      "label": "系统",
+      "english": "System",
+      "pages": [
+        {
+          "id": "system.console",
+          "label": "网页终端"
+        },
+        {
+          "id": "system.modules",
+          "label": "机箱与端口面板"
+        },
+        {
+          "id": "system.inventory",
+          "label": "硬件清单"
+        },
+        {
+          "id": "system.power",
+          "label": "电源管理"
+        },
+        {
+          "id": "system.images",
+          "label": "系统镜像"
+        },
+        {
+          "id": "system.reboot",
+          "label": "重启"
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "label": "安全",
+      "english": "Security",
+      "pages": [
+        {
+          "id": "security.users",
+          "label": "用户"
+        },
+        {
+          "id": "security.admin-password",
+          "label": "管理员密码"
+        },
+        {
+          "id": "security.ssh",
+          "label": "SSH"
+        },
+        {
+          "id": "security.aaa",
+          "label": "AAA"
+        },
+        {
+          "id": "security.login-attempts",
+          "label": "登录记录"
+        },
+        {
+          "id": "security.radius",
+          "label": "RADIUS"
+        },
+        {
+          "id": "security.tacacs",
+          "label": "TACACS+"
+        },
+        {
+          "id": "security.ldap",
+          "label": "LDAP"
+        },
+        {
+          "id": "security.certificates",
+          "label": "证书"
+        }
+      ]
+    },
+    {
+      "id": "ports",
+      "label": "端口",
+      "english": "Ports",
+      "pages": [
+        {
+          "id": "ports.ports",
+          "label": "端口管理"
+        },
+        {
+          "id": "ports.phy",
+          "label": "PHY 配置"
+        },
+        {
+          "id": "ports.mirror",
+          "label": "镜像会话"
+        },
+        {
+          "id": "ports.telemetry",
+          "label": "遥测"
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "label": "状态",
+      "english": "Status",
+      "pages": [
+        {
+          "id": "status.summary",
+          "label": "系统概览"
+        },
+        {
+          "id": "status.capabilities",
+          "label": "平台能力"
+        },
+        {
+          "id": "status.bmc",
+          "label": "BMC 监控"
+        },
+        {
+          "id": "status.wjh",
+          "label": "丢包诊断"
+        },
+        {
+          "id": "status.temperature",
+          "label": "温度"
+        },
+        {
+          "id": "status.power",
+          "label": "电源状态"
+        },
+        {
+          "id": "status.fans",
+          "label": "风扇"
+        },
+        {
+          "id": "status.cpu",
+          "label": "CPU"
+        },
+        {
+          "id": "status.memory",
+          "label": "内存"
+        },
+        {
+          "id": "status.network",
+          "label": "网络流量"
+        },
+        {
+          "id": "status.logs",
+          "label": "系统日志"
+        },
+        {
+          "id": "status.maintenance",
+          "label": "维护"
+        },
+        {
+          "id": "status.alerts",
+          "label": "告警"
+        },
+        {
+          "id": "status.virtualization",
+          "label": "虚拟化状态"
+        }
+      ]
+    },
+    {
+      "id": "ethernet",
+      "label": "以太网管理",
+      "english": "Ethernet Management",
+      "pages": [
+        {
+          "id": "ethernet.stp",
+          "label": "生成树"
+        },
+        {
+          "id": "ethernet.mac",
+          "label": "MAC 地址表"
+        },
+        {
+          "id": "ethernet.lag",
+          "label": "链路聚合"
+        },
+        {
+          "id": "ethernet.vlan",
+          "label": "VLAN"
+        },
+        {
+          "id": "ethernet.mlag",
+          "label": "多机链路聚合"
+        },
+        {
+          "id": "ethernet.igmp",
+          "label": "IGMP Snooping"
+        },
+        {
+          "id": "ethernet.acl",
+          "label": "ACL"
+        },
+        {
+          "id": "ethernet.pfc",
+          "label": "优先级流控"
+        },
+        {
+          "id": "ethernet.bgp",
+          "label": "BGP 配置"
+        },
+        {
+          "id": "ethernet.bgp-ipv4",
+          "label": "BGP IPv4"
+        },
+        {
+          "id": "ethernet.bgp-ipv6",
+          "label": "BGP IPv6"
+        }
+      ]
+    },
+    {
+      "id": "routing",
+      "label": "IP 路由",
+      "english": "IP Route",
+      "pages": [
+        {
+          "id": "routing.global",
+          "label": "路由全局设置"
+        },
+        {
+          "id": "routing.routes",
+          "label": "路由表"
+        },
+        {
+          "id": "routing.interfaces",
+          "label": "三层接口"
+        },
+        {
+          "id": "routing.arp",
+          "label": "ARP 与邻居"
+        },
+        {
+          "id": "routing.diagnostics",
+          "label": "网络诊断"
+        }
+      ]
+    }
+  ]
+}
