@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "vendor": "046b",
+  "product": "ffb0",
+  "serial": "REPLACE_WITH_VERIFIED_USB_SERIAL",
+  "usb_path": "REPLACE_WITH_VERIFIED_USB_TOPOLOGY",
+  "drivers": [
+    "cdc_ether"
+  ],
+  "host_address": "169.254.100.2",
+  "peer_address": "169.254.100.1",
+  "route_table": 1717,
+  "rule_priority": 17170,
+  "poll_seconds": 3
+}

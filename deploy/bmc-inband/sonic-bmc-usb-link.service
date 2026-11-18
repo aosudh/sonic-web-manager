@@ -1,0 +1,29 @@
+[Unit]
+Description=Verified internal BMC USB host link
+After=local-fs.target
+Before=sonic-web-manager.service
+
+[Service]
+Type=simple
+User=root
+Group=root
+ExecStart=/usr/bin/python3 -I /host/sonic-web/state/bmc-inband/host_usb_link.py --run --config /host/sonic-web/state/bmc-inband/questone2-usb-profile.json
+ExecStopPost=/usr/bin/python3 -I /host/sonic-web/state/bmc-inband/host_usb_link.py --cleanup --config /host/sonic-web/state/bmc-inband/questone2-usb-profile.json
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=45
+RuntimeDirectory=sonic-bmc-usb-link
+RuntimeDirectoryMode=0700
+RuntimeDirectoryPreserve=yes
+UMask=0077
+NoNewPrivileges=yes
+PrivateTmp=yes
+RestrictSUIDSGID=yes
+CapabilityBoundingSet=CAP_NET_ADMIN
+RestrictAddressFamilies=AF_UNIX AF_NETLINK AF_INET AF_INET6
+MemoryMax=64M
+TasksMax=16
+CPUQuota=5%
+
+[Install]
+WantedBy=multi-user.target
