@@ -1,0 +1,23 @@
+SONiC Web Manager
+Original application and integration contributions: aosudh and contributors.
+
+This project is an independent implementation. It is not an official NVIDIA,
+Microsoft, SONiC, HPE or Celestica product. Product names identify compatibility
+or documentation references; their trademarks remain with their owners.
+
+Platform-derived material:
+tests/fixtures/questone2/{hwsku.json,platform.json,port_config.ini,
+td3-as13-48f8h.config.bcm} derive from sonic-buildimage, as distributed by
+kamelnetworks/sonic-buildimage commit
+837e6f73567bd66c031b28223b8b0823865999f4.
+The upstream license notice is retained in tests/fixtures/questone2/LICENSE:
+Copyright (C) 2023 Microsoft. Licensed under the Apache License, Version 2.0.
+The BCM fixture has a local IEEE/HiGig bitmap correction; the remaining three
+fixtures match the cited upstream revision. The public chassis lane/index map
+in shared/platforms/hpe-r1n26a-d3030.json was derived from that platform data.
+It is a logical map, not verified physical row/column geometry.
+
+React, React DOM, scheduler, xterm.js and its fit addon are separately licensed
+under MIT. Their complete installed-package notices are retained in
+ui/public/THIRD_PARTY_NOTICES.txt and copied into frontend build output.
+See THIRD_PARTY.md for sources and build dependency information.
