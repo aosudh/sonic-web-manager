@@ -1,0 +1,491 @@
+{
+  "schema_version": 1,
+  "id": "hpe-r1n26a-d3030",
+  "model": "HPE FM3180 R1N26A / Celestica D3030",
+  "exact_match": {
+    "platform": "x86_64-cel_questone_2-r0",
+    "hwsku": "Questone_2",
+    "eeprom_regex": "(?<![A-Za-z0-9])R1N26A(?![A-Za-z0-9])"
+  },
+  "geometry": {
+    "kind": "logical",
+    "verified": false,
+    "positions": [],
+    "reason": "Physical row/column layout has not been validated for all cages."
+  },
+  "source": "Verified 56-cage / 80-lane mapping on HPE R1N26A; no physical geometry inferred from aliases.",
+  "cages": {
+    "1": {
+      "cage_id": "SFP1",
+      "index": 1,
+      "connector": "SFP28",
+      "lanes": [
+        49
+      ]
+    },
+    "2": {
+      "cage_id": "SFP2",
+      "index": 2,
+      "connector": "SFP28",
+      "lanes": [
+        50
+      ]
+    },
+    "3": {
+      "cage_id": "SFP3",
+      "index": 3,
+      "connector": "SFP28",
+      "lanes": [
+        51
+      ]
+    },
+    "4": {
+      "cage_id": "SFP4",
+      "index": 4,
+      "connector": "SFP28",
+      "lanes": [
+        52
+      ]
+    },
+    "5": {
+      "cage_id": "SFP5",
+      "index": 5,
+      "connector": "SFP28",
+      "lanes": [
+        57
+      ]
+    },
+    "6": {
+      "cage_id": "SFP6",
+      "index": 6,
+      "connector": "SFP28",
+      "lanes": [
+        58
+      ]
+    },
+    "7": {
+      "cage_id": "SFP7",
+      "index": 7,
+      "connector": "SFP28",
+      "lanes": [
+        59
+      ]
+    },
+    "8": {
+      "cage_id": "SFP8",
+      "index": 8,
+      "connector": "SFP28",
+      "lanes": [
+        60
+      ]
+    },
+    "9": {
+      "cage_id": "SFP9",
+      "index": 9,
+      "connector": "SFP28",
+      "lanes": [
+        61
+      ]
+    },
+    "10": {
+      "cage_id": "SFP10",
+      "index": 10,
+      "connector": "SFP28",
+      "lanes": [
+        62
+      ]
+    },
+    "11": {
+      "cage_id": "SFP11",
+      "index": 11,
+      "connector": "SFP28",
+      "lanes": [
+        63
+      ]
+    },
+    "12": {
+      "cage_id": "SFP12",
+      "index": 12,
+      "connector": "SFP28",
+      "lanes": [
+        64
+      ]
+    },
+    "13": {
+      "cage_id": "SFP13",
+      "index": 13,
+      "connector": "SFP28",
+      "lanes": [
+        77
+      ]
+    },
+    "14": {
+      "cage_id": "SFP14",
+      "index": 14,
+      "connector": "SFP28",
+      "lanes": [
+        78
+      ]
+    },
+    "15": {
+      "cage_id": "SFP15",
+      "index": 15,
+      "connector": "SFP28",
+      "lanes": [
+        79
+      ]
+    },
+    "16": {
+      "cage_id": "SFP16",
+      "index": 16,
+      "connector": "SFP28",
+      "lanes": [
+        80
+      ]
+    },
+    "17": {
+      "cage_id": "SFP17",
+      "index": 17,
+      "connector": "SFP28",
+      "lanes": [
+        85
+      ]
+    },
+    "18": {
+      "cage_id": "SFP18",
+      "index": 18,
+      "connector": "SFP28",
+      "lanes": [
+        86
+      ]
+    },
+    "19": {
+      "cage_id": "SFP19",
+      "index": 19,
+      "connector": "SFP28",
+      "lanes": [
+        87
+      ]
+    },
+    "20": {
+      "cage_id": "SFP20",
+      "index": 20,
+      "connector": "SFP28",
+      "lanes": [
+        88
+      ]
+    },
+    "21": {
+      "cage_id": "SFP21",
+      "index": 21,
+      "connector": "SFP28",
+      "lanes": [
+        93
+      ]
+    },
+    "22": {
+      "cage_id": "SFP22",
+      "index": 22,
+      "connector": "SFP28",
+      "lanes": [
+        94
+      ]
+    },
+    "23": {
+      "cage_id": "SFP23",
+      "index": 23,
+      "connector": "SFP28",
+      "lanes": [
+        95
+      ]
+    },
+    "24": {
+      "cage_id": "SFP24",
+      "index": 24,
+      "connector": "SFP28",
+      "lanes": [
+        96
+      ]
+    },
+    "25": {
+      "cage_id": "SFP25",
+      "index": 25,
+      "connector": "SFP28",
+      "lanes": [
+        13
+      ]
+    },
+    "26": {
+      "cage_id": "SFP26",
+      "index": 26,
+      "connector": "SFP28",
+      "lanes": [
+        14
+      ]
+    },
+    "27": {
+      "cage_id": "SFP27",
+      "index": 27,
+      "connector": "SFP28",
+      "lanes": [
+        15
+      ]
+    },
+    "28": {
+      "cage_id": "SFP28",
+      "index": 28,
+      "connector": "SFP28",
+      "lanes": [
+        16
+      ]
+    },
+    "29": {
+      "cage_id": "SFP29",
+      "index": 29,
+      "connector": "SFP28",
+      "lanes": [
+        21
+      ]
+    },
+    "30": {
+      "cage_id": "SFP30",
+      "index": 30,
+      "connector": "SFP28",
+      "lanes": [
+        22
+      ]
+    },
+    "31": {
+      "cage_id": "SFP31",
+      "index": 31,
+      "connector": "SFP28",
+      "lanes": [
+        23
+      ]
+    },
+    "32": {
+      "cage_id": "SFP32",
+      "index": 32,
+      "connector": "SFP28",
+      "lanes": [
+        24
+      ]
+    },
+    "33": {
+      "cage_id": "SFP33",
+      "index": 33,
+      "connector": "SFP28",
+      "lanes": [
+        29
+      ]
+    },
+    "34": {
+      "cage_id": "SFP34",
+      "index": 34,
+      "connector": "SFP28",
+      "lanes": [
+        30
+      ]
+    },
+    "35": {
+      "cage_id": "SFP35",
+      "index": 35,
+      "connector": "SFP28",
+      "lanes": [
+        31
+      ]
+    },
+    "36": {
+      "cage_id": "SFP36",
+      "index": 36,
+      "connector": "SFP28",
+      "lanes": [
+        32
+      ]
+    },
+    "37": {
+      "cage_id": "SFP37",
+      "index": 37,
+      "connector": "SFP28",
+      "lanes": [
+        97
+      ]
+    },
+    "38": {
+      "cage_id": "SFP38",
+      "index": 38,
+      "connector": "SFP28",
+      "lanes": [
+        98
+      ]
+    },
+    "39": {
+      "cage_id": "SFP39",
+      "index": 39,
+      "connector": "SFP28",
+      "lanes": [
+        99
+      ]
+    },
+    "40": {
+      "cage_id": "SFP40",
+      "index": 40,
+      "connector": "SFP28",
+      "lanes": [
+        100
+      ]
+    },
+    "41": {
+      "cage_id": "SFP41",
+      "index": 41,
+      "connector": "SFP28",
+      "lanes": [
+        105
+      ]
+    },
+    "42": {
+      "cage_id": "SFP42",
+      "index": 42,
+      "connector": "SFP28",
+      "lanes": [
+        106
+      ]
+    },
+    "43": {
+      "cage_id": "SFP43",
+      "index": 43,
+      "connector": "SFP28",
+      "lanes": [
+        107
+      ]
+    },
+    "44": {
+      "cage_id": "SFP44",
+      "index": 44,
+      "connector": "SFP28",
+      "lanes": [
+        108
+      ]
+    },
+    "45": {
+      "cage_id": "SFP45",
+      "index": 45,
+      "connector": "SFP28",
+      "lanes": [
+        113
+      ]
+    },
+    "46": {
+      "cage_id": "SFP46",
+      "index": 46,
+      "connector": "SFP28",
+      "lanes": [
+        114
+      ]
+    },
+    "47": {
+      "cage_id": "SFP47",
+      "index": 47,
+      "connector": "SFP28",
+      "lanes": [
+        115
+      ]
+    },
+    "48": {
+      "cage_id": "SFP48",
+      "index": 48,
+      "connector": "SFP28",
+      "lanes": [
+        116
+      ]
+    },
+    "49": {
+      "cage_id": "QSFP1",
+      "index": 49,
+      "connector": "QSFP28",
+      "lanes": [
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    "50": {
+      "cage_id": "QSFP2",
+      "index": 50,
+      "connector": "QSFP28",
+      "lanes": [
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    "51": {
+      "cage_id": "QSFP3",
+      "index": 51,
+      "connector": "QSFP28",
+      "lanes": [
+        121,
+        122,
+        123,
+        124
+      ]
+    },
+    "52": {
+      "cage_id": "QSFP4",
+      "index": 52,
+      "connector": "QSFP28",
+      "lanes": [
+        125,
+        126,
+        127,
+        128
+      ]
+    },
+    "53": {
+      "cage_id": "QSFP5",
+      "index": 53,
+      "connector": "QSFP28",
+      "lanes": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "54": {
+      "cage_id": "QSFP6",
+      "index": 54,
+      "connector": "QSFP28",
+      "lanes": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    "55": {
+      "cage_id": "QSFP7",
+      "index": 55,
+      "connector": "QSFP28",
+      "lanes": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "56": {
+      "cage_id": "QSFP8",
+      "index": 56,
+      "connector": "QSFP28",
+      "lanes": [
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  }
+}
