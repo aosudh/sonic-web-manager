@@ -1,0 +1,1 @@
+"""SONiC Web Manager."""
